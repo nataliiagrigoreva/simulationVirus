@@ -13,12 +13,12 @@
 		FA3B1EDF2A093A0500F436BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3B1EDD2A093A0500F436BA /* Main.storyboard */; };
 		FA3B1EE12A093A0900F436BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3B1EE02A093A0900F436BA /* Assets.xcassets */; };
 		FA3B1EE42A093A0900F436BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3B1EE22A093A0900F436BA /* LaunchScreen.storyboard */; };
-		FA3B1EEC2A093A3400F436BA /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3B1EEB2A093A3400F436BA /* Person.swift */; };
-		FA3B1EEE2A093A5A00F436BA /* Simulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3B1EED2A093A5A00F436BA /* Simulation.swift */; };
 		FA3B1EF02A093AA200F436BA /* SimulationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3B1EEF2A093AA200F436BA /* SimulationView.swift */; };
 		FA3B1EF22A093B7A00F436BA /* SimulationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3B1EF12A093B7A00F436BA /* SimulationViewController.swift */; };
 		FA3B1EF42A093D6B00F436BA /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3B1EF32A093D6B00F436BA /* CellView.swift */; };
 		FA4667C52A0B7D8800CA3136 /* InfectedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4667C42A0B7D8800CA3136 /* InfectedModel.swift */; };
+		FA8652512A0BEB0300BAE465 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8652502A0BEB0300BAE465 /* Person.swift */; };
+		FA8652532A0BEB0800BAE465 /* Simulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8652522A0BEB0800BAE465 /* Simulation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,12 +30,12 @@
 		FA3B1EE02A093A0900F436BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA3B1EE32A093A0900F436BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA3B1EE52A093A0900F436BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA3B1EEB2A093A3400F436BA /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
-		FA3B1EED2A093A5A00F436BA /* Simulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simulation.swift; sourceTree = "<group>"; };
 		FA3B1EEF2A093AA200F436BA /* SimulationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationView.swift; sourceTree = "<group>"; };
 		FA3B1EF12A093B7A00F436BA /* SimulationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationViewController.swift; sourceTree = "<group>"; };
 		FA3B1EF32A093D6B00F436BA /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
 		FA4667C42A0B7D8800CA3136 /* InfectedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfectedModel.swift; sourceTree = "<group>"; };
+		FA8652502A0BEB0300BAE465 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		FA8652522A0BEB0800BAE465 /* Simulation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Simulation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,8 +93,6 @@
 		FA4667C72A0BA2CB00CA3136 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				FA3B1EEB2A093A3400F436BA /* Person.swift */,
-				FA3B1EED2A093A5A00F436BA /* Simulation.swift */,
 				FA3B1EF32A093D6B00F436BA /* CellView.swift */,
 				FA3B1EEF2A093AA200F436BA /* SimulationView.swift */,
 			);
@@ -104,6 +102,8 @@
 		FA4667C82A0BA2E100CA3136 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FA8652522A0BEB0800BAE465 /* Simulation.swift */,
+				FA8652502A0BEB0300BAE465 /* Person.swift */,
 				FA4667C42A0B7D8800CA3136 /* InfectedModel.swift */,
 			);
 			path = Model;
@@ -180,14 +180,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA8652512A0BEB0300BAE465 /* Person.swift in Sources */,
 				FA3B1EDC2A093A0500F436BA /* InputViewController.swift in Sources */,
+				FA8652532A0BEB0800BAE465 /* Simulation.swift in Sources */,
 				FA3B1ED82A093A0500F436BA /* AppDelegate.swift in Sources */,
-				FA3B1EEE2A093A5A00F436BA /* Simulation.swift in Sources */,
 				FA3B1EF02A093AA200F436BA /* SimulationView.swift in Sources */,
 				FA4667C52A0B7D8800CA3136 /* InfectedModel.swift in Sources */,
 				FA3B1EF42A093D6B00F436BA /* CellView.swift in Sources */,
 				FA3B1EF22A093B7A00F436BA /* SimulationViewController.swift in Sources */,
-				FA3B1EEC2A093A3400F436BA /* Person.swift in Sources */,
 				FA3B1EDA2A093A0500F436BA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
