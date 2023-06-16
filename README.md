@@ -7,7 +7,9 @@
 When launching the application, the user sees a screen for entering parameters: 
 
 • the number of people in the simulated group — GroupSize; 
+
 • the number of people who can be infected by one person during contact — InfectionFactor; 
+
 • the period of recalculation of the number of infected people.
 
 
